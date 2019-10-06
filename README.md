@@ -1,1 +1,1 @@
-Simple paint App
+# A Simple paint App
