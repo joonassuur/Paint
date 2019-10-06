@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+.btn-cont {
+    position: absolute;
+    right: 0;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    background: wheat;
+}
+.btn {
+    display: inline-block;
+    padding: 20px 30px;
+    border:none;
+    text-align: center;
+    margin: 5px 0;
+    cursor: pointer;
+    outline: none;
+
+}
+.btn-color-cont {
+    width: 100%;
+    font-size: 0;
+}
+
+.line-width {
+    margin-top: 20px;
+    text-align: center;
+}
+.line-cont {
+    cursor: pointer;
+    display: block;
+}
+
+.line-example {
+    background: #000;
+    height:2px;
+    width:50px;
+    display: inline-block;
+    margin: 15px auto;
+}
+.line-cont:nth-child(2) div {
+    height:4px;
+}
+.line-cont:nth-child(3) div {
+    height:6px;
+}
+
+.label {
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+
+.btn.clear,
+.btn.eraser,
+.btn.trail {
+    width: 106px;
+}
+
+.btn.color {
+    display: inline-block;
+    border:2px solid #f0f0f0;
+    font-size: 14px;
+}
+.btn.selected {
+    border: 2px solid #000;
+}
+.btn.orange {
+    background: orange;
+    color: #fff;
+}
+.btn.yellow {
+    background: yellow;
+    color: #fff;
+}
+.btn.black {
+    background: #000;
+    color: #fff;
+}
+.btn.blue {
+    background: blue;
+    color: #fff;
+}
+.btn.red {
+    background: #ff0000;
+    color: #fff;
+}
+.btn.green {
+    background: green;
+    color: #fff;
+}
+.btn.purple {
+    background: purple;
+    color: #fff;
+}
+.btn.brown {
+    background: brown;
+    color: #fff;
+}
+.btn.custom {
+    padding: 0;
+    height: 60px;
+    width: 60px;
+    outline: none;
+}
+
